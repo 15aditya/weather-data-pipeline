@@ -1,0 +1,15 @@
+[project]
+name = "weather-data-pipeline"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "awscli>=1.40.17",
+    "boto3>=1.38.18",
+    "pandas>=2.2.3",
+    "pre-commit>=4.2.0",
+    "pyarrow>=20.0.0",
+    "pytest>=8.3.5",
+    "requests>=2.32.3",
+]
